@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F90F48029DCE8EE0045F7A6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F90F47F29DCE8EE0045F7A6 /* FourthViewController.swift */; };
 		6FBB4E0B29D32D5600B631A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E0A29D32D5600B631A5 /* AppDelegate.swift */; };
 		6FBB4E0D29D32D5600B631A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E0C29D32D5600B631A5 /* SceneDelegate.swift */; };
 		6FBB4E0F29D32D5600B631A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E0E29D32D5600B631A5 /* ViewController.swift */; };
@@ -18,11 +19,11 @@
 		6FBB4E2529D32E5F00B631A5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E2429D32E5F00B631A5 /* ThirdViewController.swift */; };
 		6FBB4E2829D3318A00B631A5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E2729D3318A00B631A5 /* UIViewController+Extension.swift */; };
 		6FBB4E2C29D33B1900B631A5 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E2B29D33B1900B631A5 /* SecondCoordinator.swift */; };
-		6FBB4E3029D35DC900B631A5 /* FouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB4E2F29D35DC900B631A5 /* FouthViewController.swift */; };
 		6FF0A2A229D38D1100E87AF5 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0A2A129D38D1100E87AF5 /* NavigationBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F90F47F29DCE8EE0045F7A6 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		6FBB4E0729D32D5600B631A5 /* NavigationCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBB4E0A29D32D5600B631A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FBB4E0C29D32D5600B631A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		6FBB4E2429D32E5F00B631A5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		6FBB4E2729D3318A00B631A5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		6FBB4E2B29D33B1900B631A5 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
-		6FBB4E2F29D35DC900B631A5 /* FouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouthViewController.swift; sourceTree = "<group>"; };
 		6FF0A2A129D38D1100E87AF5 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				6FF0A2A029D38CFC00E87AF5 /* Components */,
-				6FBB4E2A29D33AFA00B631A5 /* Settings */,
+				6FBB4E2A29D33AFA00B631A5 /* Coordinators */,
 				6FBB4E2629D3316E00B631A5 /* Extension */,
 				6FBB4E2129D32E0800B631A5 /* Views */,
 				6FBB4E1E29D32D6700B631A5 /* Main */,
@@ -95,10 +95,10 @@
 		6FBB4E2129D32E0800B631A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6F90F47F29DCE8EE0045F7A6 /* FourthViewController.swift */,
 				6FBB4E0E29D32D5600B631A5 /* ViewController.swift */,
 				6FBB4E2229D32E2B00B631A5 /* SecondViewController.swift */,
 				6FBB4E2429D32E5F00B631A5 /* ThirdViewController.swift */,
-				6FBB4E2F29D35DC900B631A5 /* FouthViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,13 +111,13 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		6FBB4E2A29D33AFA00B631A5 /* Settings */ = {
+		6FBB4E2A29D33AFA00B631A5 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 				6FBB4E1F29D32D7800B631A5 /* Coordinator.swift */,
 				6FBB4E2B29D33B1900B631A5 /* SecondCoordinator.swift */,
 			);
-			path = Settings;
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		6FF0A2A029D38CFC00E87AF5 /* Components */ = {
@@ -201,13 +201,13 @@
 			files = (
 				6FBB4E2029D32D7800B631A5 /* Coordinator.swift in Sources */,
 				6FBB4E0F29D32D5600B631A5 /* ViewController.swift in Sources */,
+				6F90F48029DCE8EE0045F7A6 /* FourthViewController.swift in Sources */,
 				6FBB4E2C29D33B1900B631A5 /* SecondCoordinator.swift in Sources */,
 				6FBB4E0B29D32D5600B631A5 /* AppDelegate.swift in Sources */,
 				6FBB4E2329D32E2B00B631A5 /* SecondViewController.swift in Sources */,
 				6FF0A2A229D38D1100E87AF5 /* NavigationBarView.swift in Sources */,
 				6FBB4E2829D3318A00B631A5 /* UIViewController+Extension.swift in Sources */,
 				6FBB4E2529D32E5F00B631A5 /* ThirdViewController.swift in Sources */,
-				6FBB4E3029D35DC900B631A5 /* FouthViewController.swift in Sources */,
 				6FBB4E0D29D32D5600B631A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
